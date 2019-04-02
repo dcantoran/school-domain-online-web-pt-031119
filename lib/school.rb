@@ -11,7 +11,7 @@ class School
   def add_student(student, grade)
     # If {Hash}[grade] is nonexistent/nil 
     if @roster[grade] == nil 
-    # Create an empty array and assign to Hash[grade]'s key
+    # Assign an empty array value to Hash's[grade]key 
       @roster[grade] = []
       # Then add the student to the empty array 
       @roster[grade] << student
